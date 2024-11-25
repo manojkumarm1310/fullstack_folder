@@ -1,0 +1,45 @@
+body
+{
+    background-color: black;
+    color: white;
+
+}
+.size
+{
+    font-size: 2rem;
+}
+.main
+{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.word
+{
+    text-align: center;
+    font-style: italic;
+    margin: 200px 0;
+}
+#wor
+{
+
+    font-size:100px;
+    color: greenyellow; 
+}
+#balan
+{
+    font-size:100px;
+    color: yellow;
+}
+#lif
+{
+    font-size:100px;
+    color: blueviolet;
+}

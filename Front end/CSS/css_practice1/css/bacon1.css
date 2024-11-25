@@ -1,0 +1,22 @@
+h1
+{
+    color: brown;
+    font-size: 100px;
+    background-color: blue;
+}
+body{
+    background-color: aquamarine;
+}
+img.bacon
+{
+    background-color: red;
+    height: 30%;
+    align-items: end;
+}
+img
+{
+    background-color:darkgoldenrod ;
+}
+p{
+    align-content: safe ;
+}

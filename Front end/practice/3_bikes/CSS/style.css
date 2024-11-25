@@ -1,0 +1,20 @@
+body
+{
+    background-color: aqua;
+    
+}
+.row
+{
+    background-color: rgb(133, 235, 235);
+    margin: auto;
+}
+.container
+{
+
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 14040px;
+    margin: auto;
+
+}

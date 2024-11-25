@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body style="text-align: center;">
+    <div>
+        
+       
+        <h1 >BIKES</h1>
+
+        <form action="/product_store" method="post">
+            <label for="">bike</label>
+            <input type="text" name="bike">
+            <label for="">CC</label>
+            <input type="number" name="cc">
+            <input type="submit">
+        </form>
+        <br>
+        <br>
+        <div class="product">
+            <% product.forEach(element => { %>
+                <div class="detail">
+                    <h1><%= element.bike %></h1>
+                    <h1><%= element.cc %></h1>
+                    <a href="/?Delete_id=<%= element._id%>">Delete</a>
+                </div>
+                <% }) %>
+        </div>
+    </div>
+
+</body>
+</html>

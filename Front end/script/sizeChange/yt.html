@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkLifeBalance</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="yt.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="row col1">
+            <label for="work" class="size">WORK SIZING</label>
+            <input type="range" max="100" min="0" id="work" value="0" onchange=work(this.value)>
+        </div>
+        <div class="row col2">
+            <label for="life" class="size">LIFE SIZING</label>
+            <input type="range" max="100" min="0" onchange=life(this.value) id="life" value="0">
+        </div>
+        <div class="row col3">
+            <label for="balance" class="size">BALANCE SIZING</label>
+            <input type="range" max="100" min="0" onchange=balance(this.value) id="balance" value="0">
+        </div>
+    </div>
+    <div class="word">
+        <h1>
+            <span id="wor">WORK</span><span id="lif">LIFE</span><span id="balan">BALANCE</span>
+        </h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+@keyframes animate-info {
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        }
+}
+
+@keyframes Animate_h1{
+    0%{
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    }
+    @keyframes Animate_name {
+        0%{
+            opacity: 0;
+            transform: translateX(-200px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        }
+    @keyframes Animate_role{
+        0%{
+            opacity: 0;
+            transform: translateY(-200px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        }
+        @keyframes Animate_quote{
+            0%{
+                opacity: 0;
+                transform: translateY(-200px);
+            }
+            100%{
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            }
+        
+            @keyframes blob {
+                0% {
+                    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+                }
+                50% {
+                    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+                }
+                100% {
+                    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+                }
+            }
+
+            @keyframes about_blob {
+                0%, 100%
+                {
+                    border-radius: 45% 55% 25% 75% / 58% 43% 57% 42% ;
+            
+                }
+                25%
+                {
+                    border-radius: 58% 42% 36% 64% / 68% 34% 66% 32% ;
+                }
+                75%
+                {
+                    border-radius: 31% 69% 55% 45% / 39% 56% 44% 61% 
+                }
+            }
+            @keyframes pro {
+                100%
+                {
+            
+                    transform: scaleY(1);
+                }
+            }
+            @keyframes html {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 90%;
+                }
+            }
+            @keyframes css {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 80%;
+                }
+            }
+            @keyframes mongodb {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 75%;
+                }
+            }
+            @keyframes javascript {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 80%;
+                }
+            }
+            @keyframes react {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 80%;
+                }
+            }
+            @keyframes node {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 60%;
+                }
+            }
+            @keyframes java {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 80%;
+                }
+            }
+            @keyframes mysql {
+                0%
+                {
+                    width: 0%;
+                }
+                100%
+                {
+                    width: 75%;
+                }
+            }
+
+            @keyframes showText {
+                100%
+                {
+                    opacity: 2;
+                }
+                
+            }
+         
+.profile_about
+{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s ;
+}
+.profile_about.active
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.about{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 2s ;
+}
+.about.active{
+    transform: translateY(0px);
+   opacity: 1;
+}
+.edu_detailLeft.active
+{
+    animation: AnimateLeft_edu 2s forwards;
+}
+@keyframes AnimateLeft_edu {
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.edu_detailRight.active
+{
+    animation: AnimateRight_edu 2s forwards;
+}
+@keyframes AnimateRight_edu {
+    0%
+    {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.bar.active{
+    animation: Animate_skills 2s;
+}
+
+@keyframes Animate_skills {
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+/* .bar:nth-child(even).active{
+    animation: Animate_skillsEven 2s;
+}
+
+@keyframes Animate_skillsEven {
+    0%
+    {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+.bar:nth-child(even).active{
+    animation: Animate_skillsOdd 2s;
+} */

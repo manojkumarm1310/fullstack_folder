@@ -1,0 +1,16 @@
+body{
+    margin: 50px 100px ;
+}
+.product
+{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+}
+.detail
+{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 10px;
+}

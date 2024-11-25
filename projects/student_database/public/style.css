@@ -1,0 +1,63 @@
+html{
+    background-color: aquamarine;
+}
+body{
+    background-color: whitesmoke;
+    height: 1000px;
+    width: 800px;
+    margin: 0 auto;
+}
+.container
+{
+}
+.base_heading
+{
+    color: red;
+    margin: 0;
+    padding: 100px 0 50px;
+}
+.add_user{
+    text-align: end;
+}
+.add_userButton
+{
+    text-align: end;
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    
+
+}
+
+table
+{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+table thead td
+{
+    padding: 5px;
+    background-color: lightslategray;
+    color: white;
+}
+table tbody td
+{
+    padding: 15px;
+}
+
+
+.edit,.del
+{
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+.del{
+    background-color: red;
+}

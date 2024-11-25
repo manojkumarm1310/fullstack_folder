@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(249, 239, 226);
+    color: black;
+}
+.container
+{
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    max-width: 100%;
+    width: 37.5rem;
+    margin: 0 auto;
+    margin-top: 11rem;
+    margin-bottom: 10%;
+    border-radius: 15px;
+}
+img{
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+}
+.col-2
+{
+    padding: 10px 30px;
+    text-align: left;
+    background-color: white;
+    border-radius: 15px;
+}
+br{
+    text-align: center;
+    display: inline-block;
+}
+.price
+{
+    display: flex;
+   flex-direction: row;
+   gap:30px;
+   left: 0;
+}
+h3{
+    text-decoration: line-through;
+}
+.buy
+{
+    padding: 0px 50px;
+    background-color: rgb(224, 26, 26);
+    display: flex;
+    align-items: center;
+ 
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}

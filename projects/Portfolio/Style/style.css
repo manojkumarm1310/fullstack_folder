@@ -1,0 +1,70 @@
+body
+{
+    margin: 0 0 0  100px;
+    background-color: snow;
+    
+}
+a{
+    text-decoration: none;
+}
+.menu
+{
+    background-color: snow;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 188px;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    align-items: center;
+}
+.homePage-tag 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+.homePage-tag h3
+{
+    border: 2px dashed black;
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-content
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    font-family: 'Black Ops One', cursive;
+}
+.menu-content a
+{
+    color: #213555;   
+}
+.section-1
+{
+    margin-top: 60px;
+}
+.main-frame
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-content a:hover
+{
+    color: rgb(231, 97, 49);
+    border-bottom: 2px solid red;
+
+}

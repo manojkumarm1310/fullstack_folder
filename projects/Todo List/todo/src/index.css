@@ -1,0 +1,77 @@
+body 
+{
+  text-align: center;
+  background-color: #eee;
+}
+.Container{
+  background-color: #eee;
+  height: fit-content;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+.todoBox
+{
+  background-color: #FAF0D7;
+  min-height: fit-content;
+  height: 500px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 30px;
+}
+.heading
+{
+  font-size: 12px;
+  font-family: 'Rock Salt', cursive;
+  color: #f5ba13;
+}
+.heading:hover{
+  color:#A2FF86;
+}
+.inputBox
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+.text
+{
+  color: #f5ba13;
+  border: hidden;
+  border-bottom: 3px dashed #1B6B93 ;
+  background-color: transparent;
+  height: 30px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+.addButton
+{
+  margin-left: 20px;
+  font-size: 30px;
+  color: #f5ba13;
+  border: solid 3px ;
+  border-radius: 5px;
+  padding: 0 8px;
+  box-shadow: 0 0 5px #f5ba13;
+  cursor: pointer ;
+}
+.addButton:hover
+{
+  color: #164B60;
+}
+.List
+{
+  color: #f5ba13;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 0 0 20px ;
+  word-wrap:break-word;
+  font-size: 18px;
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
+
+}

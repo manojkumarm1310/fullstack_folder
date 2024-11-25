@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+</head>
+<body>
+    <div>
+        <div>
+            <a href="/calendar"><img src="/public/images/calendar.png"> Today</a>
+            <a href="/work"><img src="/public/images/work.png"> work</a>
+        </div>
+        <div>
+            <h1><%= todoheading %><%= tododay  %><%= todomonth %> <%= tododate %></h1>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox">
+            <p> <%= values %></p>
+        </div>
+        <div>
+            <form action="/submit" method="post">
+            <input type="text" placeholder="Type Text" name="list">
+            <input type="submit" value="+" >
+            </form>
+        </div>
+    </div>
+</body>
+</html>
